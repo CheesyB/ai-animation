@@ -4,7 +4,7 @@ This react component animates an ai-like pattern on a canvas. You can use it and
 like to spice up your website or smart-mirror.
 
 You can use the compontent like so:
-````JSX
+```JSX
 <AiAnimation
   width={window.innerWidth}
   height={window.innerHeight}
