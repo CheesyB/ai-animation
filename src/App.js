@@ -10,10 +10,10 @@ function App() {
         height={window.innerHeight}
         particleSize={1}
         maxParticles={300}
-        threshold={80}
+        threshold={70}
         speed={0.4}
-        lineColor="red"
-        particleColor="gray"/>
+        lineColor="green"
+        particleColor="white"/>
     </div>
   );
 }
