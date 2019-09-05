@@ -1,9 +1,10 @@
 ## Ai-Animation
 
 This react component animates an ai-like pattern on a canvas. You can use it and modify as you
-like to spice up your website or smart-mirror.
+like to spice up your website or smart-mirror. What you basically need is the AiAnimation.js and
+some css for the canvas if you like and you're good to go.
 
-You can use the compontent like so:
+You can use the component like so:
 ```JSX
 <AiAnimation
   width={window.innerWidth}
@@ -16,7 +17,7 @@ You can use the compontent like so:
   particleColor="white"
 />
 ```
-Node that `width` and `height` are mandatory for the component to work. Play with the rest.
+Note that `width` and `height` are mandatory for the component to work. Play with the rest.
 
 ![with white background](/img/ai1.jpg)
 
