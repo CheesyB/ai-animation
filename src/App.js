@@ -1,24 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
+import AiAnimation from './AiAnimation'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <AiAnimation
+        width={window.innerWidth}
+        height={window.innerHeight}
+        particleSize={1}
+        maxParticles={300}
+        threshold={80}
+        speed={0.4}
+        lineColor="red"
+        particleColor="gray"/>
     </div>
   );
 }
