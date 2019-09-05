@@ -17,7 +17,8 @@ You can use the component like so:
   particleColor="white"
 />
 ```
-Note that `width` and `height` are mandatory for the component to work. Play with the rest.
+Note that `width` and `height` are mandatory for the component to work. The threshold indicates
+when neighboring nodes connect to a line.
 
 ![with white background](/img/ai1.jpg)
 
